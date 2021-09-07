@@ -18,15 +18,15 @@ baseurl:          ''
 
 # Navigation
 navigation:
-- text: About
+- text: Om
   url: /about/
-- text: Blog
+- text: Blogg
   url: /blog/
-- text: Tags
+- text: Taggar
   url: /tags/
-- text: Archive
+- text: Arkiv
   url : /archive/
-- text: Search
+- text: Sök
   url: /search/
 
 
