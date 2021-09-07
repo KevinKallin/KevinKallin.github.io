@@ -1,0 +1,10 @@
+---
+layout: post
+title: Vad är molnet?
+date: 2021-09-07 10:54:00
+tags:
+- cloud
+---
+
+Molnet är en tjänst över nätet där du kan spara data och komma åt datan utan att fysiskt behöva ha en egen server / hårddisk. Det finns tre stora aktörer inom detta område, AWS(Amazon), Azure(Microsoft) och GCP(google)
+Förutom att spara och komma åt data, så kan man även köra program över molnet. Detta gör att man inte behöver spara programmen på sin egen dator, vilket frigör utrymme på din enhet och kräver inte lika mycket av enheten.
