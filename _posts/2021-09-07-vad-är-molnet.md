@@ -44,6 +44,14 @@ Nackdelen med ett sådant val, är självklart att dessa aktörer inte har de re
 
 
 
+### Referenser
+
+[What is the cloud?](https://azure.microsoft.com/en-us/overview/what-is-the-cloud/)
+
+[What is cloud computing?](https://aws.amazon.com/what-is-cloud-computing/)
+
+[Pro and Cons for cloud computing](https://www.morefield.com/blog/pros-and-cons-of-cloud-computing/)
+
 
 
 
