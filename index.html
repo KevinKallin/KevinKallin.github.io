@@ -17,7 +17,7 @@ description: Home Page for Jekyll Metro Theme
 				<a href="about/" title="About Me">
 					<div class="tile purple profile">
 						<h2 class="title">About Me</h2>
-						<p>Hello World, I am {{site.author}}.</p>
+						<p>Tjenare, jag heter {{site.author}}.</p>
 					</div>
 				</a>
 		    </div>
@@ -44,7 +44,7 @@ description: Home Page for Jekyll Metro Theme
 				{% for post in site.posts offset:1 limit:1 %}
 				<a href="{{post.url}}" title="Recent Article">
 					<div class="tile green">
-						<h3 class="title">Recent Article</h3>
+						<h3 class="title">Tidigare inlägg</h3>
 						<h4 class="title">{{ post.title }}</h4>
 						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
 					</div>
@@ -57,7 +57,7 @@ description: Home Page for Jekyll Metro Theme
 				{% for post in site.posts limit:1 %}
 				<a href="{{post.url}}" title="Latest Article">
 					<div class="tile red">
-						<h3 class="title">Latest Article</h3>
+						<h3 class="title">Senaste</h3>
 						<h4 class="title">{{ post.title }}</h4>
 						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
 					</div>
@@ -89,18 +89,7 @@ description: Home Page for Jekyll Metro Theme
 
 		<div class="row" style="margin-bottom:25px">
 
-			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.twitter}}" title="Twitter" class="tile blue">
-					<i class="icon-twtr" style="font-size:8em"></i>
-				</a>
-			</div>
-
-			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.gplus}}" title="Google Plus"  class="tile orange">
-					<i class="icon-gpls" style="font-size:8em"></i>
-				</a>
-			</div>
-
+		
 			<div class="col-md-2 col-sm-3 col-xs-6">
 				<a href="{{site.facebook}}" class="tile blue">
 					<i class="icon-fcbk" style="font-size:8em"></i>
