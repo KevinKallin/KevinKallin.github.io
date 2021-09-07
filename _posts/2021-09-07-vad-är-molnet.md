@@ -13,10 +13,7 @@ Förutom att spara och komma åt data, så kan man även köra program över mol
 Det finns tre typer av molntjänster:
 
 * Offentligt moln - Här erbjuds alla tjänster över ett offentligt internet och är tillgänglig för alla som vill köpa dem. Resuserna för molnet som servrar och lagring ägs och styrs av externa molntjänstleveratröer och distribueras över internet
-
-
 * Privat moln - Det privata molnet används i princip bara av användare från ett företag/organisation. Lagringen för datan kan finnas fysiskt på plats hos företaget eller hos en tredje part.
-
 * Hybridmoln - Hybridmolnet är en kombination av det privata- och offentliga molnet. Det tillåter att data och program delas mellan dem.
 
 ### Vilka fördelar finns det med molnet?
