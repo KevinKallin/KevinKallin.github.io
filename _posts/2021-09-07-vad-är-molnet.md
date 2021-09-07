@@ -5,10 +5,19 @@ date:   2021-09-07 10:54:00
 tags: cloud
 ---
 
-
+I vår första uppgift till denna molnkursen, så har vi fått lära oss vad molnet och dess tjänster innebär. Nedan kommer jag beskriva lite kort vad molnet innebär. 
 
 Molnet är en tjänst över nätet där du kan spara data och komma åt datan utan att fysiskt behöva ha en egen server / hårddisk. Det finns tre stora aktörer inom detta område, AWS(Amazon), Azure(Microsoft) och GCP(google).
 Förutom att spara och komma åt data, så kan man även köra program över molnet. Detta gör att man inte behöver spara programmen på sin egen dator, vilket frigör utrymme på din enhet och kräver inte lika mycket av enheten.
+
+Det finns tre typer av molntjänster:
+
+* Offentligt moln - Här erbjuds alla tjänster över ett offentligt internet och är tillgänglig för alla som vill köpa dem. Resuserna för molnet som servrar och lagring ägs och styrs av externa molntjänstleveratröer och distribueras över internet
+
+
+* Privat moln - Det privata molnet används i princip bara av användare från ett företag/organisation. Lagringen för datan kan finnas fysiskt på plats hos företaget eller hos en tredje part.
+
+* Hybridmoln - Hybridmolnet är en kombination av det privata- och offentliga molnet. Det tillåter att data och program delas mellan dem.
 
 ### Vilka fördelar finns det med molnet?
 
