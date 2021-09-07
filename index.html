@@ -57,7 +57,7 @@ description: Home Page for Jekyll Metro Theme
 				{% for post in site.posts limit:1 %}
 				<a href="{{post.url}}" title="Latest Article">
 					<div class="tile red">
-						<h3 class="title">Senaste</h3>
+						<h3 class="title">Senaste inlägget</h3>
 						<h4 class="title">{{ post.title }}</h4>
 						<p> {{ post.content | strip_html | truncatewords: 10 }}</p>
 					</div>
@@ -65,11 +65,7 @@ description: Home Page for Jekyll Metro Theme
 				{% endfor %}
 			</div>
 
-			<div class="col-md-2 col-sm-3 col-xs-6">
-				<a href="{{site.stackoverflow}}" title="StackOverflow" class="tile darken" >
-					<i class="icon-skow" style="font-size:8em;color:white"></i>
-				</a>
-			</div>
+		
 
 			<div class="col-md-4 col-sm-6 col-xs-12">
 				{% for post in site.posts %}
