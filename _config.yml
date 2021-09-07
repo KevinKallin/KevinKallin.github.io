@@ -10,7 +10,7 @@ gems: [jekyll-paginate]
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'Kevin Kallin Blogg'
+title:            'En blogg Skapad av Kevin Kallin'
 tagline:          'A Metro theme for Jekyll'
 description:      'En blogg av Kevin Kallin'
 url:              'https://kevinkallin.github.io'
