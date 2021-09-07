@@ -10,7 +10,7 @@ gems: [jekyll-paginate]
 permalink:        /blog/:year/:month/:day/:title
 
 # Setup
-title:            'Jekyll Metro'
+title:            'Kevin Kallin Blogg'
 tagline:          'A Metro theme for Jekyll'
 description:      'A Sample blog using Jekyll Metro'
 url:              'https://kevinkallin.github.io'
@@ -33,18 +33,18 @@ navigation:
 
 
 # Author Details
-author:         'Abdel Raoof Olakara'
+author:         'Kevin Kallin'
 
 #Social Media links (Use complete URL except for email)
 dribbble:
 email:
-facebook:       'https://www.facebook.com/olakara'
+facebook:       'https://www.facebook.com/Cescolainen'
 flickr:
-github:         'https://github.com/olakara'
+github:         'https://github.com/kevinkallin'
 gplus:          'https://plus.google.com/100425464897246255887/'
 instagram:
 pinterest:
-linkedin:       'https://ae.linkedin.com/in/olakara/'
+linkedin:       'https://www.linkedin.com/in/kevin-kallin-82947812a/'
 rss:
 stackoverflow:  'http://stackoverflow.com/users/185655/abdel-raoof'
 twitter:        'https://twitter.com/olakara'
