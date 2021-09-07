@@ -12,7 +12,7 @@ permalink:        /blog/:year/:month/:day/:title
 # Setup
 title:            'Kevin Kallin Blogg'
 tagline:          'A Metro theme for Jekyll'
-description:      'A Sample blog using Jekyll Metro'
+description:      'En blogg av Kevin Kallin'
 url:              'https://kevinkallin.github.io'
 baseurl:          ''
 
@@ -39,13 +39,11 @@ email:
 facebook:       'https://www.facebook.com/Cescolainen'
 flickr:
 github:         'https://github.com/kevinkallin'
-gplus:          'https://plus.google.com/100425464897246255887/'
 instagram:
 pinterest:
 linkedin:       'https://www.linkedin.com/in/kevin-kallin-82947812a/'
 rss:
-stackoverflow:  'http://stackoverflow.com/users/185655/abdel-raoof'
-twitter:        'https://twitter.com/olakara'
+
 
 # Google Analytics
 gahandler: 'UA-52149651-1'
