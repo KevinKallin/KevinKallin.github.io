@@ -5,7 +5,7 @@ description: Om mig sida för Kevin Kallin
 theme: purple
 ---
 
-<img src="assets/images/me.jpg" alt="Bild på Kevin Kallin" class="img-kevin">
+<img src="assets/images/me.jpg" alt="Bild på Kevin Kallin" class="img-kevin"/>
 
 
 Jag studerar till .NET-utvecklare på Teknikhögskolan i Göteborg. Denna hemsidan är en del av vår kurs "Utveckling av molbaserade applikationer och kommer på denna sidan att lägga in blogginlägg om våra uppgifter till kursen. 
