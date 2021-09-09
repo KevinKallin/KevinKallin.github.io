@@ -20,7 +20,10 @@ men också under leverans och mjukvaruimplementeringen(deployment)
   * Validation och Compliance - I denna fasen validerar man en build ifall den är det behovet som din organisation behöver / kräver.
 
 
-  ![image](https://user-images.githubusercontent.com/65369996/132651098-f651438b-042c-40cf-af4e-dd0b0b84e780.png)
+
+
+
+
 
 
 
