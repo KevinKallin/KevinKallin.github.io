@@ -2,7 +2,7 @@
 layout: post
 title:  "Vad är molnet?"
 date:   2021-09-07 10:54:00
-tags: cloud
+tags: Cloud
 ---
 
 I vår första uppgift till denna molnkursen, så har vi fått lära oss vad molnet och dess tjänster innebär. Nedan kommer jag beskriva lite kort vad molnet innebär. 
