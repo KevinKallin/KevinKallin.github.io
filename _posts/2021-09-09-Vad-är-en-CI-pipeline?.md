@@ -14,7 +14,7 @@ men också under leverans och mjukvaruimplementeringen(deployment)
 ### Stegen för en CI/CD pipeline
   
   * Build - Utvecklarna kompilerar koden från applikationen
-  * Test - <em>Här testas koden. </em> Gör man automatiseringen här, så kan även tid och kraft sparas här. 
+  * Test - <em>The quality assurance(QA)</em> teamet testar koden för applikationen och använders sig av automatiserade testverktyg och strategier. 
   * Release - I denna fas sker leveransen av applikationen till repository
   * Deploy - Fasen som koden blir utplacerad till produktion
   * Validation och Compliance - I denna fasen validerar man en build ifall den är det behovet som din organisation behöver / kräver.
