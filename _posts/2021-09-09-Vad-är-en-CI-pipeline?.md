@@ -42,6 +42,12 @@ Vi gjorde det i följande steg:
 
 *Texten efter hashtaggen i bilden beskriver varje rad* 
 
+### Referenser 
+
+[What is a CI/CD pipeline?](https://www.redhat.com/en/topics/devops/what-cicd-pipeline)
+
+[OpenSource CI/CD](https://opensource.com/article/21/6/what-cicd-pipeline)
+
 
 
 
