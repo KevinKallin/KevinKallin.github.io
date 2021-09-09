@@ -2,6 +2,7 @@
 layout: post
 title: "Vad är en CI pipeline?"
 date: 2021-09-09 09:23:00
+tags: CI/CD, Continous Integration, Continous Deployment
 --- 
 
 ### Vad är en CI/CD pipeline?
