@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Docker"
+date: 2021-09-14 18:44:00
+tags: Docker Dockerfile 
+--- 
+
+### Vad har du installerat lokalt / Github
+
+   * Docker
+   * Github Desktop
+   * Terminal
+   
+   
+### Hur har ni fått applikationen att köra i en container
+
+Vi har forkat repot "SimpleWebHalloWorld" och sedan lagt till en dockerfil. Sedan har vi kört kommandot "docker build -t image" för att skapa containern. 
+Vi har även kört docker run -d -p 5000:80 test, för att sedan kunna gå in på https://localhost:5000 i vår webläsare för att kunna se programmet.
+Då körs inte programmet sin lokala server utan från containern på docker. 
+
+Här nedan kommer beskrivingen på vår dockerfil: 
+
+
+  
