@@ -7,3 +7,14 @@ tags: Serverless FaaS AzureFunctions
 
 ### Vad är serverless? 
 
+På namnet så låter det kanske som man kör program utan att använda sig av en server, men så är inte fallet.
+Med "Serverless" är hur en server hanteras samt implementeras och är något som hanteras av molnbaserade leverantörer.
+Servern/servrarna hanteras alltså istället av en leverantör och inte från företaget som utvecklar sin app. 
+På detta viset, så slipper företaget som hyr servern att underhålla, utveckla, uppdatera och hantera vanliga infrastrukturuppgifter.
+
+Serverless arkitekturen håller aldrig berkäkningsresurser i instabila minnen, utan beräkningsresurserna tar plats i små partier. 
+Låt säga att i fall man inte använder en applikation, så kommer inga resurser att tilldelas till servern.
+Med detta så betalar man för det man använder och det blir kostnadseffektivt för företaget. 
+
+
+
