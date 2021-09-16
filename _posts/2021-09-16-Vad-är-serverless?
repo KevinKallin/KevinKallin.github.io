@@ -16,5 +16,31 @@ Serverless arkitekturen håller aldrig berkäkningsresurser i instabila minnen, 
 Låt säga att i fall man inte använder en applikation, så kommer inga resurser att tilldelas till servern.
 Med detta så betalar man för det man använder och det blir kostnadseffektivt för företaget. 
 
+Huvudsaken med denna serverless modellen är att underlätta utvecklingsprocessen till produktion. 
+När man väl distribuerat tjänsten så svarar applikationen väldigt snabbt till krav och kan skala upp och ner applikationen automatiskt efter kravspecifikationen.
+Utvecklarna som använder tjänsten, behöver inte tänka på bandbredd eller hur många servrar applikationen behöver. 
+Man kan kräva mer bandbredd och servrar efter behov medans behoven ökar och det går snabbt att fixa utan större bemödan.
+
+### Fördelar med serverless
+
+<strong>Kostnadseffektivt<strong>
+
+Som jag var inne på tidigare, så blir det billigare för ett företag att använda sig av serverless.
+Man betalar för det man använder och slipper då onödiga kostnader som att betala för appar som man inte använder längre.
+Molntjänstleverantören tar bara betalt utav dig för minnet som används och tiden som koden körs och inte för appar som är inaktiva.
+
+Man sparar pengar på saker som att man slipper installation, licenser, uppdatering m.m.
+
+<strong>Snabbare appdistribution
+
+Utvecklarna behöver inte köra backend konfigurationen eller ladda upp kod till servern för att distribuera en ny version av appen. 
+Man har också flexibiliteten att distrubuera ny kod direkt efter varandra eftersom det inte är någon sluten arkitektur. 
+Utöver ovanstående, så kan man även uppdatera, lägga till nya funktioner och fixa fel i appen väldigt snabbt. 
+
+
+
+
+
+
 
 
