@@ -31,11 +31,28 @@ Molntjänstleverantören tar bara betalt utav dig för minnet som används och t
 
 Man sparar pengar på saker som att man slipper installation, licenser, uppdatering m.m.
 
-<strong>Snabbare appdistribution
+<strong>Snabbare appdistribution<strong>
 
 Utvecklarna behöver inte köra backend konfigurationen eller ladda upp kod till servern för att distribuera en ny version av appen. 
 Man har också flexibiliteten att distrubuera ny kod direkt efter varandra eftersom det inte är någon sluten arkitektur. 
 Utöver ovanstående, så kan man även uppdatera, lägga till nya funktioner och fixa fel i appen väldigt snabbt. 
+
+
+<strong>Produktivet<strong>
+
+Eftersom man utvecklarna själva inte behöver hanera själva serverhanteringen, så sparar man tid och blir mer effektiv. 
+De behöver heller inte tänka på att hantera HTTP request eller "multithreading" i koden. 
+
+<strong>Skalbarheten<strong>
+
+"Serverless" system erbjuder en hög grav av skalbarhet, eftersom man kan skala upp eller ned baserat på företagets behovs för stunden.
+Leverantöres sköter den automatiska skalningen vilket gör att utvecklarna kan fokusera på annat.
+Utvecklare i mindre team kan köra sin kod självständigt utan att behöva stöd eller infrastruktur. 
+
+Det finns ju även nackdelar med serverless och dessa kommer nedan.
+
+### Nackdelar med serverless
+
 
 
 
