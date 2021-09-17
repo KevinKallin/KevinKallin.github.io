@@ -159,7 +159,7 @@ Här är strängen med responsemessage:
  Alla dessa steg ovan gjorde vi innan vi kunde börja skriva koden. 
   
  
-  ### Hur har vi testat applikationen / Säkerhet?
+ ### Hur har vi testat applikationen / Säkerhet?
   
   Vi har bara skrivit några olika request, ett av testerna finns högre upp, där man kan se resultet från beräkningen 21 * 45 = 945.
   Mer än så har vi egentligen inte testat. 
