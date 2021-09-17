@@ -93,7 +93,50 @@ Som ett exempel så kan man ladda upp en fil som utlöser kod som sedan konverte
 Detta är bara en bråkdel av vad faktiskt FaaS är men ger en mindre inblick om vad det är. 
   
 
+### Vår kalkylator
   
+Här är koden för vår kalkylator:
+  
+![image](https://user-images.githubusercontent.com/65369996/133748291-774bc30f-752a-45b8-99dd-9a02473ffb6c.png)
+  
+
+ De första raderna: 
+  
+ ![image](https://user-images.githubusercontent.com/65369996/133748598-a1a3052a-b15e-4e88-b256-66e0c0f8d908.png)
+  
+Gör att vi kan skriva in ett namn för requestet och sedan kalkylera ett uttryck. Man kan ta bort name parametern, men vi valde ha kvar den bara för att skicka ett litet meddelande.
+  
+  * num = första numret som man fyller i
+  * op = Vilken operator man kör, exempelvis * / + eller -
+  * num2 = Det är andra numret som ska beräknas. 
+  
+Val av namn på variablerna är inte optimala, men vi valde att inte lägga större fokus på det. 
+  
+Om ni kollar på bilderna nedan, så kan ni se ett resultat av att fylla i de fyra parametrarna som jag precis beskrivit. 
+  
+  ![image](https://user-images.githubusercontent.com/65369996/133749219-e2b3dc4e-3bca-4fa7-a027-b79533c5add0.png)
+  
+  ![image](https://user-images.githubusercontent.com/65369996/133749278-cccfea02-2d2c-4a5c-a37d-419cfa1491ec.png)
+
+
+Vi har gjort en switch-sats för att man skall kunna välja vilken operator som ska beräkna de två talen.
+Först och främst, så skapade vi ju variablen op som en sträng. Initu switch-satsen så konverterar vi de strängarna som ska räkna ut summan och gör om num och num2 till datatypen int. 
+  
+Sedan skickar vi resultatet till strängen responsemessage och där har vi enkelt valt att bara skriva ut "Hello <name> , <num> <operator> <num> = <sum>. Detta ser ni även på bilderna ovan. 
+  
+Här är switch-satsen: 
+
+  ![image](https://user-images.githubusercontent.com/65369996/133750314-6f2bec9b-eff3-4d00-aefb-2534fc5479f0.png)
+
+Här är strängen med responsemessage:
+  
+ ![image](https://user-images.githubusercontent.com/65369996/133750400-a3157e13-fe4e-46ff-bf26-13f4f06f95d5.png)
+
+
+
+
+
+
 
 
 
