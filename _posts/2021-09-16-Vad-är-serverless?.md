@@ -132,6 +132,30 @@ Här är switch-satsen:
 Här är strängen med responsemessage:
   
  ![image](https://user-images.githubusercontent.com/65369996/133750400-a3157e13-fe4e-46ff-bf26-13f4f06f95d5.png)
+  
+  
+ För att skapa denna HTTP trigger, så har vi först gått in och skapat en ny resurs inne i Azure portalen.
+  
+ ![image](https://user-images.githubusercontent.com/65369996/133752717-8dcedf62-6ce3-47d5-8acc-4e92e438168b.png)
+  
+ Sedan har vi valt Compute > Funktionsapp 
+  
+ ![image](https://user-images.githubusercontent.com/65369996/133752810-60f83a06-0035-4104-808c-da476431b15a.png)
+  
+ Då får man upp ett formulär som skall fyllas i: 
+  
+ ![image](https://user-images.githubusercontent.com/65369996/133752896-83aa3987-0b4f-4c35-9fbb-08dfc946547b.png)
+  
+ Efter ha skapat resursen och funktions appen, så går man in på funktionsappen och får upp följande meny: 
+  
+ ![image](https://user-images.githubusercontent.com/65369996/133753362-13e17a96-d47f-49b0-ad4c-54f16bd2db6e.png)
+ 
+ 
+  
+ 
+
+
+
 
 
 
