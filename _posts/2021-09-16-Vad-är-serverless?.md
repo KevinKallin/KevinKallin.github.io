@@ -52,7 +52,46 @@ Utvecklare i mindre team kan köra sin kod självständigt utan att behöva stö
 Det finns ju även nackdelar med serverless och dessa kommer nedan.
 
 ### Nackdelar med serverless
+  
+<strong>Säkerhet<strong>
 
+Säkerhet är något som blir allt viktigare över nätet, men med nya tekniker så uppstår också nya säkerhetshål. 
+När man använder sig av "Serverless computing" så har man inte själv kontrollen från leverantören som man använder.
+Det medför att det är riskabelt när hela företagets backend med känslig information är sparade på en sådan server.
+  
+<strong>Prestanda<strong>
+  
+Ibland kan kod som körs mindre få en viss fördröjning än kod som körs kontinuerligt på mjukvaru containrar, dedikerade servrar och virtuella maskiner. 
+Det tar tid för servern att starta om och skapar då ännu mer fördröjning på applikationen att starta / svara. 
+  
+<strong>Svårt att testa och felsöka<strong>
+
+Man behöver veta hur sin kod presterar när man har distrubuerat den och för det så behöver man testa koden, vilket är svårt i en "serverless" miljö. 
+Eftersom utvecklarna också inte har kontroll över varje backend process, samt att applikationer är uppdelade i mindre funktioner så blir felsökningen även problematisk. 
+  
+ 
+### Vad är FaaS?
+  
+Faas står för "Function as a Service" vilket är en molntjänst där utvecklare kan bygga, köra och hantera applikationspaket som funktioner
+utan att behöva underhålla deras egna infrastruktur. 
+  
+Faas är en händelsestyrd modellteknik som kör "stateless" containers och dessa funktioner hanterar server-side logik och "state" genom
+användningen av tjänster från en Faas leverantör. 
+  
+###  Faas och serverless
+  
+Faas är ett sätt att implementera "serverless computing" då utvecklare kan skriva business logiken som sedan körs i Linux containers och hanteras 
+av en plattform.
+Vanligtvis så körs molnbaserade tjänster av en molnbaserad plattform men denna modell utvecklas hela tiden så att man kan köra denna modellen även lokalt och med hybriddistrubution.
+  
+En funktion är en del av en mjukvara som kör business logiken på ett operativsystem. Applikationer kan bli kombinerade av många olika funktioner.
+Att använda Faas-modellen är ett sätt att bygga en app med arkitekturen från "Serverless".
+  
+FaaS ger utvecklare en abstraktion av att köra webbapplikationer som ger svar från händelse, utan att man behöver hantera servern.
+Som ett exempel så kan man ladda upp en fil som utlöser kod som sedan konverterar filen till många olika format. 
+  
+
+  
 
 
 
