@@ -40,13 +40,13 @@ Utöver ovanstående, så kan man även uppdatera, lägga till nya funktioner oc
 
 <strong>Produktivet<strong>
 
-Eftersom man utvecklarna själva inte behöver hanera själva serverhanteringen, så sparar man tid och blir mer effektiv. 
+Eftersom utvecklarna själva inte behöver fixa serverhanteringen, så sparar man tid och blir mer effektiva. 
 De behöver heller inte tänka på att hantera HTTP request eller "multithreading" i koden. 
 
 <strong>Skalbarheten<strong>
 
-"Serverless" system erbjuder en hög grav av skalbarhet, eftersom man kan skala upp eller ned baserat på företagets behovs för stunden.
-Leverantöres sköter den automatiska skalningen vilket gör att utvecklarna kan fokusera på annat.
+"Serverless" system erbjuder en hög grav av skalbarhet, eftersom man kan skala upp eller ned baserat på företagets behov för stunden.
+Leverantören sköter den automatiska skalningen vilket gör att utvecklarna kan fokusera på annat.
 Utvecklare i mindre team kan köra sin kod självständigt utan att behöva stöd eller infrastruktur. 
 
 Det finns ju även nackdelar med serverless och dessa kommer nedan.
@@ -89,6 +89,8 @@ Att använda Faas-modellen är ett sätt att bygga en app med arkitekturen från
   
 FaaS ger utvecklare en abstraktion av att köra webbapplikationer som ger svar från händelse, utan att man behöver hantera servern.
 Som ett exempel så kan man ladda upp en fil som utlöser kod som sedan konverterar filen till många olika format. 
+  
+Detta är bara en bråkdel av vad faktiskt FaaS är men ger en mindre inblick om vad det är. 
   
 
   
