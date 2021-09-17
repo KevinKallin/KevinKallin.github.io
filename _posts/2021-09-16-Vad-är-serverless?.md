@@ -150,7 +150,29 @@ Här är strängen med responsemessage:
   
  ![image](https://user-images.githubusercontent.com/65369996/133753362-13e17a96-d47f-49b0-ad4c-54f16bd2db6e.png)
  
+  Här klickar man på funktioner och sedan skapa. Då kommer det upp en lista med mallar på vilken trigger man vill skapa.
+  I detta fallet skulle vi skapa en HTTP trigger, som då utlöses vid ett GET/POST request. 
+  
+  ![image](https://user-images.githubusercontent.com/65369996/133763695-8ca055c6-1f22-466f-b223-cdeaf994fefa.png)
+
+ Efter man har skapat triggern, så trycker man på kod + test och sedan kan man skriva sin kod. 
+ Alla dessa steg ovan gjorde vi innan vi kunde börja skriva koden. 
+  
  
+  ### Hur har vi testat applikationen / Säkerhet?
+  
+  Vi har bara skrivit några olika request, ett av testerna finns högre upp, där man kan se resultet från beräkningen 21 * 45 = 945.
+  Mer än så har vi egentligen inte testat. 
+  Säkerhetshoten mot denna app är väl egentligen inte något problem, då ingen känslig information finns. Vi har ingen databas för att använda oss och spara informationen från 
+  kalkylatorn och inga användare mer än oss själva som loggar in på vårt Azure konto, så därav har vi inte gjort något för att säkra den. 
+  
+  Eftersom det är en sån simpel applikation, har vi heller inte gjort någon felhantering, så skulle man inte tex skriva något annat än de fyra operatorerna 
+  vi har valt till kalkylatorn, så har vi inget som säger att det blir fel. 
+  
+  
+  
+  
+  
   
  
 
