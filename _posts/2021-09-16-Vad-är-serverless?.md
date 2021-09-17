@@ -116,7 +116,8 @@ Om ni kollar på bilderna nedan, så kan ni se ett resultat av att fylla i de fy
   
   ![image](https://user-images.githubusercontent.com/65369996/133749219-e2b3dc4e-3bca-4fa7-a027-b79533c5add0.png)
   
-  ![image](https://user-images.githubusercontent.com/65369996/133749278-cccfea02-2d2c-4a5c-a37d-419cfa1491ec.png)
+ ![image](https://user-images.githubusercontent.com/65369996/133750564-522480e2-9450-408b-886a-6535e33bcba0.png)
+
 
 
 Vi har gjort en switch-sats för att man skall kunna välja vilken operator som ska beräkna de två talen.
