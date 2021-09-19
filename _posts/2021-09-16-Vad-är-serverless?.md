@@ -171,6 +171,11 @@ Här är strängen med responsemessage:
   
   
   
+  ### Referenser
+  
+  [Serverless computing](https://geekflare.com/know-about-serverless/)
+  
+  [What is Faas?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas)
   
   
   
