@@ -86,8 +86,41 @@ ViewPlayer.cshtml:
 I denna filen, så loopar vi igenom alla spelare i databasen och för varje spelare, så skapas en ny cell/rad i tabellen. 
 
 
+### Hur har vi fått programmet att köra i Azure app service?
+
+I mitt förra inlägg med databaser, så skapade jag en databas i molnet och det var grundstenen för detta programmet. 
+Istället för att använda apiet från förra programmet, så har jag istället skapat en annan model, "Player" som jag vart inne på tidigare.
+I och med det, så har jag skapat en ny container med namnet "Players". Det var första steget för att koppla samman databasen med detta programmet. 
+
+Sedan har vi helt enklet bara "deployat" appen till azure genom att klicka på deploy to web app som bilden nedan visar:
+
+![image](https://user-images.githubusercontent.com/65369996/134805957-a8fc043e-c8c8-4c83-8218-0ea4dbedd980.png)
+
+Man har följt några få steg där man väljer namnet på sidan. Mycket mer än så var det inte. 
+
+## Kostnaden 
+
+Ett program med få användare:
+
+![image](https://user-images.githubusercontent.com/65369996/134637482-339e71c7-5ec1-4d53-b498-8d8b6c08561e.png)
+
+Så skulle månadskostnaden bli ca $23 i månaden. 
+
+Med en stor mängd användare: 
+
+![image](https://user-images.githubusercontent.com/65369996/134637676-5e893f40-cda8-410c-81ba-10e0e459cc71.png)
+
+Här blir kostnaden ca $2350 i månaden. 
 
 
+### Referenser
+
+
+[MVC-Wepapp med CosmosDB](https://docs.microsoft.com/sv-se/azure/cosmos-db/sql/sql-api-dotnet-application)
+
+[Razor pages Tim Corey](https://www.youtube.com/watch?v=68towqYcQlY)
+
+[Deploy ASP.NET web app](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs)
 
 
 
