@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Webbapplikationer i molent"
+title: "Webbapplikationer i molnet"
 date: 2021-09-26 12:53:00
 tags: CosmosDb Webbapplikation RazorPages
 --- 
@@ -116,7 +116,7 @@ Här blir kostnaden ca $2350 i månaden.
 ### Referenser
 
 
-[MVC-Wepapp med CosmosDB](https://docs.microsoft.com/sv-se/azure/cosmos-db/sql/sql-api-dotnet-application)
+[MVC-Webapp med CosmosDB](https://docs.microsoft.com/sv-se/azure/cosmos-db/sql/sql-api-dotnet-application)
 
 [Razor pages Tim Corey](https://www.youtube.com/watch?v=68towqYcQlY)
 
