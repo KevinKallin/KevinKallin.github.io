@@ -90,3 +90,10 @@ För stora företag eller företag som står inför extremt hårda datasäkerhet
 
 VPC är hostad av en publik leverantör och därför kan kunderna lägga till mer dataresurser efter begäran/behov. 
 
+[What is VPC?](https://www.cloudflare.com/learning/cloud/what-is-a-virtual-private-cloud/)
+
+[https://docs.microsoft.com/da-dk/azure/private-link/private-link-overview ](Azure Private Link)
+
+[https://medium.com/awesome-azure/introduction-to-azure-private-link-andprivate-endpoint-and-private-link-service-a61be184356e](Azure Private Link Overview)
+
+[Azure networking - Private link](https://www.youtube.com/watch?v=PWKM5KXjWno)
