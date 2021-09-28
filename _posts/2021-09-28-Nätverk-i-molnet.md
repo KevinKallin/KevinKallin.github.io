@@ -47,7 +47,7 @@ Anslut till tjänster runt hela världen - Det ansluts privat till tjänsterna s
 Konsumentens virutella nätverk kan vara i Region A och kan anslutas med tjänsterna bakom en Private Link i Region B.
 
 
-<strong>Kom åt tjänsterna privat på Azure platformen</strong
+<strong>Kom åt tjänsterna privat på Azure platformen</strong>
 Anslut vårt virtuella nätverk till tjänser hos Azure utan en publik ip-adress från källan eller destinationen. 
 Tjänsteleverantörerna kan framställa deras tjänster i deras egna virtuella nätverk och konsumenterna kan komma åt dessa tjänster
 i deras lokala virtuella nätverk. 
