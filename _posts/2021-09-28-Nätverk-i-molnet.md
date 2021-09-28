@@ -92,8 +92,8 @@ VPC är hostad av en publik leverantör och därför kan kunderna lägga till me
 
 [What is VPC?](https://www.cloudflare.com/learning/cloud/what-is-a-virtual-private-cloud/)
 
-[https://docs.microsoft.com/da-dk/azure/private-link/private-link-overview ](Azure Private Link)
+[Azure Private Link](https://docs.microsoft.com/da-dk/azure/private-link/private-link-overview )
 
-[https://medium.com/awesome-azure/introduction-to-azure-private-link-andprivate-endpoint-and-private-link-service-a61be184356e](Azure Private Link Overview)
+[Azure Private Link Overview](https://medium.com/awesome-azure/introduction-to-azure-private-link-andprivate-endpoint-and-private-link-service-a61be184356e)
 
 [Azure networking - Private link](https://www.youtube.com/watch?v=PWKM5KXjWno)
