@@ -78,12 +78,15 @@ VPC, är ett privat moln inuti ett privat moln och ingen annan delar VPC med VPC
 ### Fördelar med VPC
 
 <strong>Bättre prestanda</strong>
+
 Moln-hostade webbsidor och applikationer brukar prestera bättra än de som är hostade på lokala servers. 
 
 <strong>Bättre säkerhet</strong>
+
 De offentliga molnleverantörerna som erbjuder VPC har ofta fler resurser för att uppdatera och underhålla infrastrukturen, särskilt för små och medelstora företag.
 För stora företag eller företag som står inför extremt hårda datasäkerhetsbestämmelser är detta en mindre fördel.
 
 <strong>Skalbarheten</strong>
+
 VPC är hostad av en publik leverantör och därför kan kunderna lägga till mer dataresurser efter begäran/behov. 
 
