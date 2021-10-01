@@ -93,7 +93,7 @@ Trycker man på välj fil så kommer man in på "Den här datorn > bilder"
 
   ![image](https://user-images.githubusercontent.com/65369996/135593310-50d7b57a-c7b4-4789-b3ee-85d15a763994.png)
 
-  
+  ###
   
 
 
