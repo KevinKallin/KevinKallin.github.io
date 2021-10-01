@@ -32,6 +32,14 @@ Trycker man på Add blob så kommer denna rutan upp:
 
 Trycker man på välj fil så kommer man in på "Den här datorn > bilder" 
 
+### Diagram för dataflödet
+
+![image](https://user-images.githubusercontent.com/65369996/135596630-8522e8d7-c5d6-4755-82cf-583c82754d89.png)
+
+Detta är ett väldigt simpelt diagram, men visar lite för hur flödet är.
+I Storageaccountet, så skapar man en container och inuti containern så sparas alla filer.
+
+
 ### Beskriv koden
 
   <strong>Program som vi installerat</strong
@@ -93,7 +101,7 @@ Trycker man på välj fil så kommer man in på "Den här datorn > bilder"
 
   ![image](https://user-images.githubusercontent.com/65369996/135593310-50d7b57a-c7b4-4789-b3ee-85d15a763994.png)
 
-  ###
+  ### Vad skulle det kosta att driva applikationen?
   
 
 
