@@ -56,6 +56,51 @@ Trycker man på välj fil så kommer man in på "Den här datorn > bilder"
   Inne i den containern, sparas alla bilder som vi lägger till i webappen. Om vi tar en närmare titt på det, så är det 
   samma ID:n inne i containern som det är i webappen:
   
+  Container: 
+  
+  ![image](https://user-images.githubusercontent.com/65369996/135591657-df1b8695-e6c1-4e52-87b5-bb4db83a4c9c.png)
+
+  Webapp:
+  
+  ![image](https://user-images.githubusercontent.com/65369996/135591781-b8a5a06c-f943-433a-89c0-979c2cfdb176.png)
+  
+  För att detta ska kunna sparas i emulatorn, så har vi behövt skapa upp några klasser:
+  
+  BlobService:
+
+  ![image](https://user-images.githubusercontent.com/65369996/135592374-d64a3f29-a4ca-4308-ae81-90621d09cbfb.png)
+  
+  IBlobService:
+  
+  ![image](https://user-images.githubusercontent.com/65369996/135592471-fa697dd3-8431-4bba-96ac-44bc0a72f7ff.png)
+  
+  IBlobService är ett interface och det använder vi oss av för att använda oss av dependency injection i startup.cs filen:
+  
+  ![image](https://user-images.githubusercontent.com/65369996/135592663-ac63f53b-c4e7-4077-ba4a-90e14327c9b6.png)
+  
+  Det är för att kunna skapa en koppling mellan appen och servern som blobs läggs till / sparas på. 
+  
+  Vi har även en controller: 
+  
+  ![image](https://user-images.githubusercontent.com/65369996/135592941-fe7bd985-8a6a-49f0-b628-f0d68107a10b.png)
+
+  För att detta sedan ska visas i appen har vi även skapat två Views med razor syntax,
+  en för att visa filerna och skapa "deleteknappen": 
+  
+  ![image](https://user-images.githubusercontent.com/65369996/135593162-29dab1f7-4d0f-44c2-936f-3e977ad709e0.png)
+  
+  Och en för att kunna lägga till filerna:
+
+  ![image](https://user-images.githubusercontent.com/65369996/135593310-50d7b57a-c7b4-4789-b3ee-85d15a763994.png)
+
+  
+  
+
+
+
+
+
+  
   
 
   
