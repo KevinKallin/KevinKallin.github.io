@@ -32,4 +32,32 @@ Trycker man på Add blob så kommer denna rutan upp:
 
 Trycker man på välj fil så kommer man in på "Den här datorn > bilder" 
 
+### Beskriv koden
+
+  <strong>Program som vi installerat</strong
+  * Azure Storage Emulator
+  * Azure Storage Explorer
+  
+  Efter att vi har laddat ner ovanstående program, så har man fått starta upp en server på emulatorn, genom att skriva AzureStorageEmulator.exe init /forceCreate i
+  emulatorns egna cmd. 
+  Då skapas en lokal SQL server upp i bakgrunden.
+  
+  När väl den är igång så behöver man lägga till detta i app.setting inuti projektet:
+
+  ![image](https://user-images.githubusercontent.com/65369996/135591107-17ed605b-1812-4310-b7cc-0f3d35b71526.png)
+  
+  Då kommer man åt ett standardkonto som gäller för alla som vill använda som av emulatorn.
+  Man kan skriva det på flera olika sätt, men detta tyckte jag var det smidigaste. 
+  
+  Inuti Azure storage explorer har jag skapat en container som heter "images", vilket ni kan se nedan:
+  
+  ![image](https://user-images.githubusercontent.com/65369996/135591395-e61d336f-acb9-41ae-aa14-9ec6bb75f9b9.png)
+  
+  Inne i den containern, sparas alla bilder som vi lägger till i webappen. Om vi tar en närmare titt på det, så är det 
+  samma ID:n inne i containern som det är i webappen:
+  
+  
+
+  
+
 
