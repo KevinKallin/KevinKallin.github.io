@@ -13,8 +13,7 @@ Jag valde att köra på Azure Storage Emulator.
 ### Beskrivning av applikationen
 
 Vi har gjort en MVC-app där man kan lägga till / ta bort filer. När man lägger till en fil, så sparas det i emulatorn. 
-Det går även att ändra så att det även sparas i sitt eget storageaccount på Azure, men då måste en inställning i app.settings göras 
-och det kommer jag visa lite senare. 
+Det går även att ändra så att det även sparas i sitt eget storageaccount på Azure, men då måste en inställning i app.settings göras.
 
 Först får man trycka på Add files i menyn :
 
@@ -22,7 +21,13 @@ Först får man trycka på Add files i menyn :
 
 Då kommer man till sidan där man kan lägga till eller radera en fil. Som vi ser i bilden nedan, så har jag redan lagt till då filer. 
 Det skapas ett nytt id för varje bild och har även en länk. För stunden så kan man inte se bilderna på sidan och inte heller via länken
-men är något jag ska fixa senare.
+men är något jag ska fixa senare. 
+
+Ovanstånede sker bara när jag kör via emulatorn, använder jag connectionstringen och hämtar in bilderna
+från azure protal, så funkar länken att klicka på och bilden som finns tillagd visas och ser ut så här:
+
+![image](https://user-images.githubusercontent.com/65369996/135756119-529731b9-6270-41c2-8431-0ecf55ac3203.png)
+
 
 ![image](https://user-images.githubusercontent.com/65369996/135588711-10162827-b998-452e-a077-0e126307a347.png)
 
