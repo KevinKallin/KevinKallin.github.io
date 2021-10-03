@@ -120,9 +120,15 @@ I Storageaccountet, så skapar man en container och inuti containern så sparas 
   Man använder denna tjänsten för att kryptera nycklarna och andra hemligheter som lösenord som använder HSM-lagrade nycklar.
   Med denna tjänsten kan inte Microsoft se eller extrahera våra nycklar, med det sagt så är det mycket säkert att använda sig av denna tjänsten. 
   
+  ### Referenser
   
+  [Key Vault](https://azure.microsoft.com/sv-se/services/key-vault/#product-overview)
   
+  [Azure Storage Emulator](https://www.youtube.com/watch?v=gy9V1-mOExo)
   
+  [Setting up the Azure Storage Emulator](https://medium.com/oneforall-undergrad-software-engineering/setting-up-the-azure-storage-emulator-environment-on-windows-5f20d07d3a04)
+  
+  [Azure Storage CRUD](https://www.c-sharpcorner.com/article/azure-storage-crud-operations-in-mvc-using-c-sharp-part-two/)
   
 
   
