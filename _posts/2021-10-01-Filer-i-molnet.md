@@ -106,7 +106,7 @@ I Storageaccountet, så skapar man en container och inuti containern så sparas 
 
   ![image](https://user-images.githubusercontent.com/65369996/135593310-50d7b57a-c7b4-4789-b3ee-85d15a763994.png)
 
-  ### Vad skulle det kosta att driva applikationen?
+### Vad skulle det kosta att driva applikationen?
   
   Om vi skulle ha en applikation med 1000 användare och varje användare lägger upp 100mb / dag och som sedan laddas ner 3 gånger varje dag
   så skulle kostnaden bli runt $85. Nedan kommer bild med uträkningen:
@@ -114,13 +114,13 @@ I Storageaccountet, så skapar man en container och inuti containern så sparas 
   ![image](https://user-images.githubusercontent.com/65369996/135746515-2ccd1beb-a67a-4be6-b813-f6b80e5c3590.png)
 
 
-  ### Säkerhet för vår blob data
+### Säkerhet för vår blob data
   
   Azure har något som heter "Key Vault". Det är en säker nyckelhantering som är väsentlig för att skydda data i molnet. 
   Man använder denna tjänsten för att kryptera nycklarna och andra hemligheter som lösenord som använder HSM-lagrade nycklar.
   Med denna tjänsten kan inte Microsoft se eller extrahera våra nycklar, med det sagt så är det mycket säkert att använda sig av denna tjänsten. 
   
-  ### Referenser
+### Referenser
   
   [Key Vault](https://azure.microsoft.com/sv-se/services/key-vault/#product-overview)
   
