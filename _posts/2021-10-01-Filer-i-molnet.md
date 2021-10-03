@@ -103,6 +103,10 @@ I Storageaccountet, så skapar man en container och inuti containern så sparas 
 
   ### Vad skulle det kosta att driva applikationen?
   
+  Om vi skulle ha en applikation med 1000 användare och varje användare lägger upp 100mb / dag och som sedan laddas ner 3 gånger varje dag
+  så skulle kostnaden bli runt $85. Nedan kommer bild med uträkningen:
+
+  ![image](https://user-images.githubusercontent.com/65369996/135746515-2ccd1beb-a67a-4be6-b813-f6b80e5c3590.png)
 
 
 
