@@ -109,8 +109,16 @@ I Storageaccountet, så skapar man en container och inuti containern så sparas 
   ![image](https://user-images.githubusercontent.com/65369996/135746515-2ccd1beb-a67a-4be6-b813-f6b80e5c3590.png)
 
 
-
-
+  ### Säkerhet för vår blob data
+  
+  Azure har något som heter "Key Vault". Det är en säker nyckelhantering som är väsentlig för att skydda data i molnet. 
+  Man använder denna tjänsten för att kryptera nycklarna och andra hemligheter som lösenord som använder HSM-lagrade nycklar.
+  Med denna tjänsten kan inte Microsoft se eller extrahera våra nycklar, med det sagt så är det mycket säkert att använda sig av denna tjänsten. 
+  
+  
+  
+  
+  
 
   
   
