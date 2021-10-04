@@ -47,7 +47,7 @@ I Storageaccountet, så skapar man en container och inuti containern så sparas 
 
 ### Beskriv koden
 
-  <strong>Program som vi installerat</strong
+  <strong>Program som vi installerat</strong>
   * Azure Storage Emulator
   * Azure Storage Explorer
   
