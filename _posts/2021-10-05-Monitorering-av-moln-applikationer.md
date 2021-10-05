@@ -62,6 +62,16 @@ Kollar man även längre ner, så ser man en text där det står "OrginalFormat"
 lagt in i programmet för att användaren ska se att något har blivit fel. 
 
 
+### Hur kan logging hjälpa till med säkerheten?
+
+Loggingen kan göra oerhört mycket för säkerheten. Man kan framförallt bli notifierad direkt ifall något akut händer, men man kan även se allt som användarna
+gör. Ett bra verkligt exempel med logging är på tex myndigheter, så loggas allt som personalen gör på datorerna. Det gör man för att det finns känslig
+data som personalen har hand om och inte får använda sig utav bara nyfikenhet, men som de alltid har tillgång till. Med hjälp av logging, så kan man då
+spåra vem som har varit inne på vad och i fall något inte skulle gå rätt till, så är det enkelt att se vem som har gjort det.
+
+För mitt program för stunden, så är ovanstående exempel meningslöst men det är bara en grym grej som logging kan göra för säkerheten.
+
+
 
 
 
