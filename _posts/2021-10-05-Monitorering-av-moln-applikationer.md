@@ -24,3 +24,29 @@ I samband med detta felmeddelandet, så skapas även ett exception som registrer
 
 ### Beskriv koden för loggimplementationen 
 
+Det första man måste göra för att få detta att funka är att lägga till denna kodraden inne i startup-filen:
+
+![image](https://user-images.githubusercontent.com/65369996/136066582-1e3eb6c5-95d2-4c41-9e57-a7ad98129388.png)
+ 
+Det är för att App insights ska kunna mäta alla request och liknande som görs i applikationen. 
+För att App insights också ska fungera, så ska man aktivera det inne i Azure portalen. 
+
+![image](https://user-images.githubusercontent.com/65369996/136067022-51a55816-8043-4add-b4cd-374417ee9efc.png)
+
+
+När man sedan trycker på "View Application Insights data, så kommer man även vidare till en sida där man kan hitta
+sin instrumental key, som är viktigt att lägga in i appsettings filen i programmet, för att koppla programmet till rätt resurs på Azure.
+
+![image](https://user-images.githubusercontent.com/65369996/136067370-0a448a51-d2fb-4dcc-8cce-ee379539da9b.png)
+
+* Har valt att dölja nyckeln på bilden för att ingen obehörig ska komma åt den. 
+
+
+
+
+
+
+
+
+
+
