@@ -41,6 +41,27 @@ sin instrumental key, som är viktigt att lägga in i appsettings filen i progra
 
 * Har valt att dölja nyckeln på bilden för att ingen obehörig ska komma åt den. 
 
+För att sedan lägga till loggingen i själva applikationen så har jag fått lägga till namespacet "Microsoft.Extensions.Logging.
+Med Dependency injection, har jag sedan fått in det i den delen av programmet där spelaren skapas. 
+
+![image](https://user-images.githubusercontent.com/65369996/136067885-2868d4e8-e156-418c-bba0-b2867756b027.png)
+
+Här nedan gör jag en kontroll på att ifall något av fälten när man ska spara en spelare inte är ifyllda, så kommer ett exception
+skickas och ett meddelande kommer visas för användaren. Det meddelandet finns i början på detta inlägget. 
+
+![image](https://user-images.githubusercontent.com/65369996/136068389-69217706-0c09-4596-82c3-894634461f1c.png)
+
+Det som sker i samband med detta också, är att exceptionet kommer visas i App Insights inne på min resurs på Azure portal
+och det kan se ut såhär:
+
+![image](https://user-images.githubusercontent.com/65369996/136069533-9c4f531f-b694-4b6a-9df7-e91348a6de35.png)
+
+
+Nu är det ganska mycket information på denna bilden, men kollar man närmare på högerspalten, så ser man att det är ett ArgumentException som har blivit sparat.
+Kollar man även längre ner, så ser man en text där det står "OrginalFormat" och texten "You need to fill in all the fields", vilket är meddelandet som jag 
+lagt in i programmet för att användaren ska se att något har blivit fel. 
+
+
 
 
 
