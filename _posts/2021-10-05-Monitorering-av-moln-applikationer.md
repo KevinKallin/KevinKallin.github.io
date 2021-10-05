@@ -14,7 +14,8 @@ men har inte fokuserat helt på den biten när jag gjorde programmet för två v
 När man ska lägga till en spelare, så måste man fylla i förnamn, efternamn och position. Gjorde man inte det i förra programmet
 så skickades man bara till startsidan utan att någonting sparades, nu kommer istället ett felmeddelande upp och det ser ut såhär:
 
-![image](https://user-images.githubusercontent.com/65369996/136061301-96968751-597a-4950-b070-daff3c4ff7be.png)
+![image](https://user-images.githubusercontent.com/65369996/136073453-662dc1c0-a690-4aa5-837a-644b089f55ed.png)
+
 
 I samband med detta felmeddelandet, så skapas även ett exception som registreras i Appinsights. Kommer visa ett exempel längre ner i detta inlägg. 
 
@@ -71,6 +72,25 @@ spåra vem som har varit inne på vad och i fall något inte skulle gå rätt ti
 
 För mitt program för stunden, så är ovanstående exempel meningslöst men det är bara en grym grej som logging kan göra för säkerheten.
 
+### Mina Queries
+
+Här är min första:
+
+![image](https://user-images.githubusercontent.com/65369996/136073910-244bcaa9-688d-4632-8f45-e13c854545f6.png)
+
+Den visar hur många misslyckade request det har varit och på vilket ställe det har gått fel. 
+Detta är bra för att upptäcka fel i sin kod eller se ett beteende från användarna. 
+Man kanske har något som är otydligt på hemsidan och där många av användarna glömmer / trycker fel
+och med denna queryn så kommer allt sådant att upptäckas när man ska lägga till en spelare.
+
+
+Här är min andra:
+
+![image](https://user-images.githubusercontent.com/65369996/136074789-56f3709f-2d7c-4f21-873e-7df981b0d81f.png)
+
+På denna så visar den från vilka länder användarna kommer ifrån som är inne på sidan. 
+Detta kan vara bra att veta för att man ska kunna anpassa sin applikation så bra som möjligt beroende på vart 
+man till exempel har kunder ifrån. 
 
 
 
